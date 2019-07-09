@@ -10,6 +10,24 @@ body,
 .el-menu-item {
   font-size: 13px;
 }
-i.iconfont{
-    margin-right: 10px;
+i.iconfont {
+  margin-right: 10px;
+}
+
+/* 给card卡片区设置统一样式 */
+.box-card {
+  margin-top: 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* 给el-table设置统一样式 */
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+/* 给分页  设置统一样式 */
+.el-pagination {
+  margin-top: 15px;
+  font-size: 12px;
 }
